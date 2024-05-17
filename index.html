@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        
+        <h1>WEATHER APP</h1>
+
+        <div class="tab-container">
+             
+            <div class="yourWeather">Your Weather</div>
+            <div class="searchWeather">Search Weather</div>
+
+        </div>
+
+        <div class="main-container">
+             
+            <div class="grant-location-container">
+
+                <img src="location.png" height="80px" width="80px" loading="lazy" class="location-image">
+                <h1>Grant Location Access</h1>
+                <p>Allow Access to get weather Information</p>
+                <button class="grant-access-btn">GRANT ACCESS</button>
+
+               
+            </div>
+
+            <div class="search-weather">
+                <div class="input-container">
+                    <input  placeholder="Search for City...">
+                    <button><img src="search.png" width="20px" height="20px" loading="lazy"></button>
+                </div>
+                
+                <div class="loading-container">
+                    <img src="loading.gif" height="150px" width="150px" loading="lazy">
+                    <p>LOADING</p>
+                </div>
+                
+                <div class="search-data-container" >
+                    
+                    <div class="Identity">
+                        <p class="name"></p>
+                        <img src="" class="flag">
+                    </div>
+                    
+                    <img src="" class="weather-type-image">
+                    <p class="weather-type"></p>
+                    <h2 class="temperature"></h2>
+    
+                    <div class="image-container">
+                         
+                        <div class="weather-info-container" >
+                            <img src="wind.png" width="60px" height="60px" loading="lazy">
+                            <p>WINDSPEED</p>
+                            <p class="windspeed-value"></p>
+                        </div>
+    
+                        <div class="weather-info-container">
+                            <img src="humidity.png" width="60px" height="60px" loading="lazy">
+                            <p>HUMIDITY</p>
+                            <p class="humidity-value"></p>
+                        </div>
+    
+                        <div class="weather-info-container">
+                            <img src="cloud.png" width="60px" height="60px" loading="lazy">
+                            <p>CLOUDS</p>
+                            <p class="cloud-value"></p>
+                        </div>
+    
+                    </div>
+                    
+                </div>
+
+             
+
+
+
+            </div>
+            
+           
+            <div class="your-weather">
+                 
+                <div class="your-data-container">
+                    
+                    <div class="Identity">
+                        <p class="name"></p>
+                        <img src="" class="flag">
+                    </div>
+                    
+                    <p class="weather-type"></p>
+                    <img src="" class="weather-type-image">
+                    <h2 class="temperature"></h2>
+    
+                    <div class="image-container">
+                         
+                        <div class="weather-info-container" >
+                            <img src="wind.png" width="60px" height="60px" loading="lazy">
+                            <p>WINDSPEED</p>
+                            <p class="windspeed-value"></p>
+                        </div>
+    
+                        <div class="weather-info-container">
+                            <img src="humidity.png" width="60px" height="60px" loading="lazy">
+                            <p>HUMIDITY</p>
+                            <p class="humidity-value"></p>
+                        </div>
+    
+                        <div class="weather-info-container">
+                            <img src="cloud.png" width="60px" height="60px" loading="lazy">
+                            <p>CLOUDS</p>
+                            <p class="clouds-value"></p>
+                        </div>
+    
+                    </div>
+                    
+                </div>
+          
+
+            </div>
+
+            <div class="searching-container">
+                <img src="loading.gif" loading="lazy" height="200px" width="200px">
+                <p>LOADING</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
